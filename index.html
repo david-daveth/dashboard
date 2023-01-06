@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard || E-commerce</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="/javascript.svg" alt="logo" class="nav__logo__img">
+          <h2 class="nav__logo__text">Devdash</h2>
+        </a>
+        <ul class="nav__menu">
+          <li><a href="#"><i class="uil uil-house-user"></i>Dashboard</a></li>
+          <li><a href="#"><i class="uil uil-files-landscapes"></i>Content</a></li>
+          <li><a href="#"><i class="uil uil-chart"></i>Analytics</a></li>
+          <li><a href="#"><i class="uil uil-thumbs-up"></i>Like</a></li>
+          <li><a href="#"><i class="uil uil-comments"></i>Comment</a></li>
+          <li><a href="#"><i class="uil uil-signout"></i>Logout</a></li>
+        </ul>
+        <div class="nav__close display">
+          <i class="uil uil-times"></i>
+        </div>
+        <div class="nav__toggler">
+          <i class="uil uil-list-ui-alt"></i>
+        </div>
+        
+      </nav>
+    </header>
+
+    <main class="main container">
+      <div class="main-right">
+        <div class="award">
+          <h2>Congratulations Andrea!</h2>
+          <div class="award__details">
+            <img src="./assets/medal.jpg" alt="">
+            <div class="award__data">
+              <h1>$2000k</h1>
+              <span class="percent"><i class="uil uil-arrow-up"></i> 0.75% since last year</span>
+              <p class="target">You have done 93.44% target sales reached today.</p>
+              <small class="time">Today, 610 minutes ago</small>
+            </div>
+          </div>
+        </div>
+        <div class=" sellers">
+            <h2>Weekly Best Sellers</h2>
+              <div class="seller__item">
+                <img src="./assets/seller-1.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+              <div class="seller__item">
+                <img src="./assets/seller-2.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+              <div class="seller__item">
+                <img src="./assets/seller-3.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+              <div class="seller__item">
+                <img src="./assets/seller-4.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+              <div class="seller__item">
+                <img src="./assets/seller-5.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+              <div class="seller__item">
+                <img src="./assets/seller-6.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+              <div class="seller__item">
+                <img src="./assets/seller-7.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+              <div class="seller__item">
+                <img src="./assets/seller-3.jpg" alt="seller">
+                <p>Jon Doe</p>
+                <span>624 Sales</span>
+              </div>
+            
+          </div>
+      </div>
+      <div class="main-left">
+          <div class=" dashboard__items">
+            <div class="dashboard__item">
+              <div class="sub__title">
+                <div class="stat__icon">
+                  <i class="uil uil-star"></i> 
+                </div>
+                <span>sales</span></div>
+              <div class="dashboard__statistics">
+                <h2>59467</h2>
+                <div class="dashboard__statistics__rate">
+                  <span class="rate">High</span>
+                  <span class="number">311</span><i class="uil uil-arrow-up"></i>
+                </div>
+              </div>
+              <div class="dashboard__summary">Total for this month</div>
+            </div>
+            <div class="dashboard__item">
+              <div class="sub__title">
+                <div class="stat__icon">
+                  <i class="uil uil-shopping-cart"></i> 
+                </div>
+                <span>Purchase</span></div>
+              <div class="dashboard__statistics">
+                <h2>39327</h2>
+                <div class="dashboard__statistics__rate">
+                  <span class="rate">Low</span>
+                  <span class="number">0.21</span><i class="uil uil-arrow-down activity__detail-icon"></i>
+                </div>
+              </div>
+              <div class="dashboard__summary">Total for this month</div>
+            </div>
+            <div class="dashboard__item">
+              <div class="sub__title">
+                <div class="stat__icon">
+                  <i class="uil uil-download-alt"></i> 
+                </div>
+                <span>Downloads</span></div>
+              <div class="dashboard__statistics">
+                <h2>59467</h2>
+                <div class="dashboard__statistics__rate">
+                  <span class="rate">Low</span>
+                  <span class="number">1.21</span><i class="uil uil-arrow-down activity__detail-icon"></i>
+                </div>
+              </div>
+              <div class="dashboard__summary">Total for this month</div>
+            </div>
+          </div>
+          <div class="dashboard__products">
+              <h2 class="products__title">Top selling products</h2>
+              <div class="products__detail">
+                <table class="products">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="products__items">
+                          <div class="products__image"> <img src="./assets/4.jpg" alt=""> </div>
+                        <div class="products__desc">
+                          <p>Books</p>
+                          <div class="products__star">
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                          </div>
+                        </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="products__type">Stationary</p>
+                      </td>
+                      <td>
+                        <div class="products__number">
+                          <p class="number">3500</p>
+                          <p class="sales">Sales</p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="products__items">
+                          <div class="products__image"> <img src="./assets/order-7.jpg" alt=""> </div>
+                        <div class="products__desc">
+                          <p>Sports Shoes</p>
+                          <div class="products__star">
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                          </div>
+                        </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="products__type">Accessories</p>
+                      </td>
+                      <td>
+                        <div class="products__number">
+                          <p class="number">2975</p>
+                          <p class="sales">Sales</p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="products__items">
+                          <div class="products__image"> <img src="./assets/order-5.jpg" alt=""> </div>
+                        <div class="products__desc">
+                          <p>Beauty Makeup Kit</p>
+                          <div class="products__star">
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                          </div>
+                        </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="products__type">Beauty</p>
+                      </td>
+                      <td>
+                        <div class="products__number">
+                          <p class="number">3750</p>
+                          <p class="sales">Sales</p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="products__items">
+                          <div class="products__image"> <img src="./assets/order-6.jpg" alt=""> </div>
+                        <div class="products__desc">
+                          <p>Health Watch</p>
+                          <div class="products__star">
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
+                          </div>
+                        </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="products__type">Electronics</p>
+                      </td>
+                      <td>
+                        <div class="products__number">
+                          <p class="number">5397</p>
+                          <p class="sales">Sales</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+          </div>
+            <div class="activity">
+              <h2 class="products__title">Sales Activity</h2>
+              <div class="activity__details">
+                <div class="activity__details__item">
+                  <i class="uil uil-shopping-cart"></i>
+                  <div class="activity__price">
+                    <p class="total">Total Products</p>
+                    <p class="number">9865</p>
+                  </div>
+                  <i class="uil uil-arrow-down activity__detail-icon"></i>
+                </div>
+                <div class="activity__details__item">
+                  <i class="uil uil-shopping-bag"></i>
+                  <div class="activity__price">
+                    <p class="total">Total Sales</p>
+                    <p class="number">5851</p>
+                  </div>
+                  <i class="uil uil-arrow-down activity__detail-icon"></i>
+                </div>
+                <div class="activity__details__item">
+                  <i class="uil uil-dollar-alt"></i>
+                  <div class="activity__price">
+                    <p class="total">Total Revenue</p>
+                    <p class="number">99651</p>
+                  </div>
+                  <i class="uil uil-arrow-down activity__detail-icon"></i>
+                </div>
+                <div class="activity__details__item">
+                  <i class="uil uil-arrow-up-left"></i>
+                  <div class="activity__price">
+                    <p class="total">Total Refund</p>
+                    <p class="number">351</p>
+                  </div>
+                  <i class="uil uil-arrow-down activity__detail-icon"></i>
+                </div>
+              </div>
+            </div>
+            <section class="section order" id="order">
+              <div class="order__details">
+                <h2>Latest Order</h2>
+                <table class="order__table">
+                  <thead>
+                    <tr>
+                      <th>Products</th>
+                      <th>Dates</th>
+                      <th>Revenue</th>
+                      <th>Net Profit</th>
+                      <th>Status</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="order__item">
+                        <img src="./assets/order-5.jpg" alt="pro">
+                        <p>Beauty Kit</p>
+                      </td>
+                      <td>Sep 05, 2021</td>
+                      <td>1835.005</td>
+                      <td>98.155</td>
+                      <td>Stopped</td>
+                      <td>
+                        <i class="uil uil-edit"></i>
+                        <i class="uil uil-trash-alt"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src="./assets/order-1.jpg" alt="pro">
+                        <p>Head Set</p>
+                      </td>
+                      <td>Sep 05, 2021</td>
+                      <td>1835.005</td>
+                      <td>98.155</td>
+                      <td>Pending</td>
+                      <td>
+                        <i class="uil uil-edit"></i>
+                        <i class="uil uil-trash-alt"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="flex">
+                        <img src="./assets/order-3.jpg" alt="pro">
+                        <p>New Book</p>
+                      </td>
+                      <td>Sep 05, 2021</td>
+                      <td>1835.005</td>
+                      <td>98.155</td>
+                      <td>Completed</td>
+                      <td>
+                        <i class="uil uil-edit"></i>
+                        <i class="uil uil-trash-alt"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="flex">
+                        <img src="./assets/order-4.jpg" alt="pro">
+                        <p>New Bowl</p>
+                      </td>
+                      <td>Sep 05, 2021</td>
+                      <td>1835.005</td>
+                      <td>98.155</td>
+                      <td>Completed</td>
+                      <td>
+                        <i class="uil uil-edit"></i>
+                        <i class="uil uil-trash-alt"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="flex">
+                        <img src="./assets/order-6.jpg" alt="pro">
+                        <p>Digital Watch</p>
+                      </td>
+                      <td>Sep 05, 2021</td>
+                      <td>1835.005</td>
+                      <td>98.155</td>
+                      <td>Stopped</td>
+                      <td>
+                        <i class="uil uil-edit"></i>
+                        <i class="uil uil-trash-alt"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="flex">
+                        <img src="./assets/order-7.jpg" alt="pro">
+                        <p>Sneakers</p>
+                      </td>
+                      <td>Sep 05, 2021</td>
+                      <td>1835.005</td>
+                      <td>98.155</td>
+                      <td>Pending</td>
+                      <td>
+                        <i class="uil uil-edit"></i>
+                        <i class="uil uil-trash-alt"></i>
+                      </td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+          </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container" >
+        &copy;DavetonAcademy. All right reserved 2021
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
