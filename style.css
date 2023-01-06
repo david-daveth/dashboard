@@ -206,15 +206,13 @@ img {
   margin-bottom: 1.5rem;
 }
 .seller__item img{
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 50%;
   margin-right: .5rem;
 }
 .seller__item p{
-  font-size: var(--h3);
-  font-weight: var(--font-semibold);
- 
+  font-size: var(--p);
 }
 .seller__item span{
   margin-left: auto;
